@@ -1,0 +1,51 @@
+[
+  {
+    "id": "staufer_01",
+    "empresa": "staufer",
+    "nombre": "STAUFER",
+    "serie": "55428",
+    "qr": "qr_staufer_57810.png",
+    "mantenimientos": [
+      {
+        "fecha": "20/05/2025",
+        "trabajo": "Mtto correctivo",
+        "empresa": "Staufer Die Casting",
+        "contacto": "",
+        "ubicacion": "Qro",
+        "tel": "",
+        "estado": "Qro",
+        "puesto": "",
+        "fecha_compra": "",
+        "quien_realiza": "Isaac Camacho",
+        "fecha_instalacion": "",
+        "modelo": "WTP18/180/X",
+        "tipo": "Agua ",
+        "serie": "55428",
+        "temp_max": "180°C",
+        "fase": "3F",
+        "voltios": "440",
+        "amperaje de carga maxima": "",
+        "lecturas": {
+          "toma_corriente": "",
+          "rampeo_corriente": "",
+          "Voltaje de entrada": "",
+          "rampeo_entrada": "",
+          "Volataje de salida": "",
+          "rampeo_salida": "",
+          "amperaje": "",
+          "rampeo_amperaje": "",
+          "presion": "",
+          "rampeo_presion": "",
+          "aceite": "",
+          "rampeo_aceite": "",
+          "temperatura": "",
+          "rampeo_temperatura": ""
+        },
+        "material_utilizado": "transductor 30br y transductor 15 bar ventilador de 24v ",
+        "comentarios": "Se realizo las coneciones de 24v al plc ya que no le llegaba voltaje, se realzaron cambios de los transductores ya que no marcaban la presion y se cambio el ventilador de ya que se encontraba sin funcionamiento.",
+        "realizo": "Isaac Camacho ",
+        "recibio": ""
+      }
+    ]
+  }
+]

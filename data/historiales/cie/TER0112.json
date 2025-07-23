@@ -1,0 +1,51 @@
+[
+  {
+    "id": "cie_02",
+    "empresa": "cie",
+    "nombre": "CIE",
+    "serie": "TER-0112",
+    "qr": "qr_cie_CIE1002.png",
+    "mantenimientos": [
+      {
+        "fecha": "10/06/25",
+        "trabajo": "Correctivo",
+        "empresa": "CIE",
+        "contacto": "Marco Miranda",
+        "ubicacion": "Celaya",
+        "tel": "",
+        "estado": "GTO",
+        "puesto": "",
+        "fecha_compra": "",
+        "quien_realiza": "Isaac Camacho",
+        "fecha_instalacion": "",
+        "modelo": "TOOL TEMP",
+        "tipo": "Aceite",
+        "serie": "TER-0112",
+        "temp_max": "300°C",
+        "fase": "3F",
+        "voltios": "440",
+        "amperaje de carga maxima": "",
+        "lecturas": {
+          "toma_corriente": "",
+          "rampeo_corriente": "",
+          "Voltaje de entrada": "",
+          "rampeo_entrada": "",
+          "Volataje de salida": "",
+          "rampeo_salida": "",
+          "amperaje": "",
+          "rampeo_amperaje": "",
+          "presion": "",
+          "rampeo_presion": "",
+          "aceite": "",
+          "rampeo_aceite": "",
+          "temperatura": "",
+          "rampeo_temperatura": ""
+        },
+        "material_utilizado": "2 contactores trifasicos, 2 reles termicos, 1 contactor, 1 rele, 1 boton y un controlador de temperatura. ",
+        "comentarios": "Se realizo un diganostico completo de termo, se encuentra daños en componentes del sistema de control de igual manera se realiza revison de los intercambiadores de calor que se encuentran llenos de sarro impidiendo el paso de agua a los intercambiadores.",
+        "realizo": "Isaac Camacho",
+        "recibio": "Marco Miranda "
+      }
+    ]
+  }
+]

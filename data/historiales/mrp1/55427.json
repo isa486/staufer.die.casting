@@ -1,0 +1,51 @@
+[
+  {
+    "id": "mrp1_010",
+    "empresa": "mrp1",
+    "nombre": "MRP1",
+    "serie": "55427",
+    "qr": "qr_mrp1_MRP10010.png",
+    "mantenimientos": [
+      {
+        "fecha": "",
+        "trabajo": "Diagnostico",
+        "empresa": "MRP1",
+        "contacto": "Francisco rdzg",
+        "ubicacion": "QRO",
+        "tel": "",
+        "estado": "QRO",
+        "puesto": "",
+        "fecha_compra": "",
+        "quien_realiza": "Oscar Luna",
+        "fecha_instalacion": "",
+        "modelo": "TEO180",
+        "tipo": "Agua",
+        "serie": "55427",
+        "temp_max": "180°C",
+        "fase": "3F",
+        "voltios": "440",
+        "amperaje de carga maxima": "",
+        "lecturas": {
+          "toma_corriente": "",
+          "rampeo_corriente": "",
+          "Voltaje de entrada": "",
+          "rampeo_entrada": "",
+          "Voltaje de salida": "",
+          "rampeo_salida": "",
+          "amperaje": "",
+          "rampeo_amperaje": "",
+          "presion": "",
+          "rampeo_presion": "",
+          "aceite": "",
+          "rampeo_aceite": "",
+          "temperatura": "",
+          "rampeo_temperatura": ""
+        },
+        "material_utilizado": "",
+        "comentarios": "Falla de bomba magnetica, falla en transductor 15 bar",
+        "realizo": "Oscar Luna",
+        "recibio": ""
+      }
+    ]
+  }
+]

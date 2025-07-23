@@ -1,0 +1,51 @@
+[
+  {
+    "id": "mrp1_06",
+    "empresa": "mrp1",
+    "nombre": "MRP1",
+    "serie": "2100325",
+    "qr": "qr_mrp1_MRP1006.png",
+    "mantenimientos": [
+      {
+        "fecha": "28/09/22",
+        "trabajo": "Correctivo",
+        "empresa": "MRP1",
+        "contacto": "Eduardo Alvarez",
+        "ubicacion": "QRO",
+        "tel": "",
+        "estado": "QRO",
+        "puesto": "",
+        "fecha_compra": "",
+        "quien_realiza": "Oscar Luna",
+        "fecha_instalacion": "",
+        "modelo": "TEO180",
+        "tipo": "Agua",
+        "serie": "2100325",
+        "temp_max": "180°C",
+        "fase": "3F",
+        "voltios": "440",
+        "amperaje de carga maxima": "",
+        "lecturas": {
+          "toma_corriente": "440",
+          "rampeo_corriente": "",
+          "Volatej de entrada": "440",
+          "rampeo_entrada": "",
+          "Volatje de salida": "440",
+          "rampeo_salida": "",
+          "amperaje": "",
+          "rampeo_amperaje": "",
+          "presion": "6.4",
+          "rampeo_presion": "",
+          "aceite": "",
+          "rampeo_aceite": "",
+          "temperatura": "180",
+          "rampeo_temperatura": ""
+        },
+        "material_utilizado": "Contactor 3F simens ",
+        "comentarios": "Se realiza cambio de contactor y se requiere cambio de fusibles. Se recomienda instalar filtros a la entrada de agua.",
+        "realizo": "Oscar Luna",
+        "recibio": ""
+      }
+    ]
+  }
+]

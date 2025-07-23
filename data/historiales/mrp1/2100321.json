@@ -1,0 +1,51 @@
+[
+  {
+    "id": "mrp1_02",
+    "empresa": "mrp1",
+    "nombre": "MRP1",
+    "serie": "210032/1 t-34",
+    "qr": "qr_mrp1_MRP1002.png",
+    "mantenimientos": [
+      {
+        "fecha": "",
+        "trabajo": "Diagnostico",
+        "empresa": "MRP1",
+        "contacto": "Francisco",
+        "ubicacion": "QRO",
+        "tel": "",
+        "estado": "QRO",
+        "puesto": "",
+        "fecha_compra": "",
+        "quien_realiza": "Oscar Luna",
+        "fecha_instalacion": "",
+        "modelo": "TEO180",
+        "tipo": "Agua",
+        "serie": "210032/1 t-34",
+        "temp_max": "180°C",
+        "fase": "3F",
+        "voltios": "440",
+        "amperaje": "",
+        "lecturas": {
+          "toma_corriente": "",
+          "rampeo_corriente": "",
+          "voltaje de entrada": "",
+          "rampeo_entrada": "",
+          "Voltaje de salida": "",
+          "rampeo_salida": "",
+          "amperaje": "",
+          "rampeo_amperaje": "",
+          "presion": "",
+          "rampeo_presion": "",
+          "aceite": "",
+          "rampeo_aceite": "",
+          "temperatura": "",
+          "rampeo_temperatura": ""
+        },
+        "material_utilizado": "",
+        "comentarios": "Cambiar bomba magnetica (esta dañada del eje)",
+        "realizo": "Oscar Luna",
+        "recibio": ""
+      }
+    ]
+  }
+]

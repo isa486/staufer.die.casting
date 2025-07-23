@@ -1,0 +1,51 @@
+[
+  {
+    "id": "mrp1_01",
+    "empresa": "mrp1",
+    "nombre": "MRP1",
+    "serie": "57810",
+    "qr": "qr_mrp1_MRP1001.png",
+    "mantenimientos": [
+      {
+        "fecha": "",
+        "trabajo": "Mtto preventivo",
+        "empresa": "MRP1",
+        "contacto": "Fco. Rodriguez",
+        "ubicacion": "QRO",
+        "tel": "",
+        "estado": "QRO",
+        "puesto": "",
+        "fecha_compra": "",
+        "quien_realiza": "Oscar Luna",
+        "fecha_instalacion": "",
+        "modelo": "TEO182",
+        "tipo": "agua",
+        "serie": "57810",
+        "temp_max": "180°C",
+        "fase": "3F",
+        "voltios": "440",
+        "amperaje de carga maxima": "63A",
+        "lecturas": {
+          "toma_corriente": "",
+          "rampeo_corriente": "",
+          "Voltaje de entrada": "",
+          "rampeo_entrada": "",
+          "Voltaje de salida": "",
+          "rampeo_salida": "",
+          "amperaje": "",
+          "rampeo_amperaje": "",
+          "presion": "",
+          "rampeo_presion": "",
+          "aceite": "",
+          "rampeo_aceite": "",
+          "temperatura": "",
+          "rampeo_temperatura": ""
+        },
+        "material_utilizado": "desincrustante, limpia moldes",
+        "comentarios": "Se realizo un mtto preventivo a los intercambiadores con el fin de prevenir sarro execisvo",
+        "realizo": "Oscar Luna",
+        "recibio": "Fco Rodriguez"
+      }
+    ]
+  }
+]

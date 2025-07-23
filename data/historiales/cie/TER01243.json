@@ -1,0 +1,51 @@
+[
+  {
+    "id": "cie_01",
+    "empresa": "cie",
+    "nombre": "CIE",
+    "serie": "TER-0124-3",
+    "qr": "qr_cie_CIE1001.png",
+    "mantenimientos": [
+      {
+        "fecha": "8/03/25",
+        "trabajo": "Correctivo",
+        "empresa": "CIE",
+        "contacto": "Marco Miranda",
+        "ubicacion": "Celaya",
+        "tel": "",
+        "estado": "GTO",
+        "puesto": "",
+        "fecha_compra": "",
+        "quien_realiza": "Oscar Luna",
+        "fecha_instalacion": "",
+        "modelo": "TT-39012",
+        "tipo": "Aceite",
+        "serie": "TER-0124-3",
+        "temp_max": "400°C",
+        "fase": "3F",
+        "voltios": "440",
+        "amperaje de carga maxima": "",
+        "lecturas": {
+          "toma_corriente": "",
+          "rampeo_corriente": "",
+          "Voltaje de entrada": "410",
+          "rampeo_entrada": "410",
+          "Volataje de salida": "410",
+          "rampeo_salida": "410",
+          "amperaje": "6.3",
+          "rampeo_amperaje": "6.3",
+          "presion": "",
+          "rampeo_presion": "6 y 12 l/m",
+          "aceite": "OK",
+          "rampeo_aceite": "OK",
+          "temperatura": "",
+          "rampeo_temperatura": ""
+        },
+        "material_utilizado": "",
+        "comentarios": "Mala conexion en magueras (intercambiadas) se conectan correctamete y trabajan como se debe.",
+        "realizo": "Oscar Luna",
+        "recibio": "Marco Miranda "
+      }
+    ]
+  }
+]

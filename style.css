@@ -1,0 +1,190 @@
+body {
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background: #fffbe7; /* Amarillo claro */
+  color: #222;
+  margin: 0;
+  padding: 0;
+}
+
+header, footer {
+  background: #222; /* Negro */
+  color: #fff;      /* Blanco */
+  padding: 16px 0;
+  text-align: center;
+  letter-spacing: 1px;
+}
+
+main {
+  max-width: 850px;
+  margin: 32px auto;
+  background: #fff; /* Blanco */
+  box-shadow: 0 2px 10px #ffd600; /* Amarillo fuerte */
+  border-radius: 8px;
+  padding: 32px 28px 28px 28px;
+}
+
+h1 {
+  font-size: 2.1em;
+  margin-bottom: 10px;
+  letter-spacing: 1px;
+  color: #ffd600; /* Amarillo fuerte */
+}
+
+h2 {
+  font-size: 1.4em;
+  margin-bottom: 6px;
+  color: #222; /* Negro */
+}
+
+h3 {
+  font-size: 1.1em;
+  margin: 20px 0 8px 0;
+  color: #222; /* Negro */
+}
+h4{
+    font-size: 1.4em;
+  margin-bottom: 6px;
+  color: #ffd600; /* Negro */
+}
+.qr-img {
+  width: 85px;
+  height: 85px;
+  object-fit: contain;
+  border: 2px solid #ffd600; /* Amarillo */
+  background: #fff;
+  border-radius: 6px;
+  margin-top: 7px;
+}
+
+.empresa-item {
+  background: #fffde7; /* Amarillo muy claro */
+  border: 2px solid #ffd600; /* Amarillo fuerte */
+  border-radius: 8px;
+  padding: 16px 18px;
+  margin-bottom: 22px;
+  box-shadow: 0 1px 4px #fff9c4; /* Sombra amarilla */
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+}
+
+.buscador-maquina label {
+  font-weight: 500;
+  margin-right: 10px;
+  color: #222;
+}
+
+.buscador-maquina input {
+  padding: 6px;
+  border-radius: 5px;
+  border: 1.5px solid #ffd600; /* Amarillo */
+  margin-right: 12px;
+  background: #fff;
+  color: #222;
+}
+
+.buscador-maquina button {
+  background: #ffd600; /* Amarillo fuerte */
+  color: #222;         /* Negro */
+  padding: 7px 20px;
+  border-radius: 6px;
+  border: none;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.2s, color 0.2s;
+}
+.buscador-maquina button:hover {
+  background: #222;   /* Negro */
+  color: #ffd600;     /* Amarillo */
+}
+
+#tabs-mantenimientos {
+  margin: 16px 0 24px 0;
+  display: flex;
+  gap: 10px;
+}
+
+.tab-mtto {
+  padding: 7px 16px;
+  border-radius: 5px;
+  background: #fffbe7; /* Amarillo claro */
+  border: 1.5px solid #ffd600;
+  cursor: pointer;
+  font-weight: 500;
+  color: #222; /* Negro */
+}
+.tab-mtto:hover {
+  background: #ffd600;  /* Amarillo fuerte */
+  color: #222;          /* Negro */
+}
+
+/* --- TABLAS PROFESIONALES --- */
+.tabla-historial {
+  border-collapse: separate;
+  border-spacing: 0;
+  width: 100%;
+  background: #fff;
+  margin-bottom: 32px;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 1px 7px 0 #ffd60055;
+  font-size: 1.05em;
+}
+
+.tabla-historial th, .tabla-historial td {
+  padding: 12px 16px;
+  text-align: left;
+}
+
+.tabla-historial th {
+  background: #ffd600;
+  color: #222;
+  font-weight: 700;
+  border-bottom: 2.5px solid #222;
+  letter-spacing: 0.5px;
+}
+
+.tabla-historial td {
+  border-bottom: 1.5px solid #fffbe7;
+  color: #222;
+  background: #fff;
+}
+
+.tabla-historial tr:last-child td {
+  border-bottom: none;
+}
+
+.tabla-historial tr:hover td {
+  background: #fffde7;
+  color: #000;
+}
+
+.tabla-historial caption {
+  caption-side: top;
+  font-size: 1.2em;
+  font-weight: bold;
+  background: #222;
+  color: #ffd600;
+  padding: 10px 0;
+  border-radius: 8px 8px 0 0;
+  margin-bottom: 0;
+}
+
+/* Bordes redondos arriba */
+.tabla-historial th:first-child {
+  border-radius: 8px 0 0 0;
+}
+.tabla-historial th:last-child {
+  border-radius: 0 8px 0 0;
+}
+
+@media (max-width: 900px) {
+  main {
+    max-width: 99vw;
+    padding: 12px 2vw;
+  }
+  .empresa-item {
+    width: 95vw;
+  }
+}

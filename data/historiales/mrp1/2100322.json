@@ -1,0 +1,51 @@
+[
+  {
+    "id": "mrp1_05",
+    "empresa": "mrp1",
+    "nombre": "MRP1",
+    "serie": "2100322",
+    "qr": "qr_mrp1_MRP1005.png",
+    "mantenimientos": [
+      {
+        "fecha": "28/09/22",
+        "trabajo": "Correctivo",
+        "empresa": "MRP1",
+        "contacto": "Eduardo Alvarez",
+        "ubicacion": "QRO",
+        "tel": "",
+        "estado": "QRO",
+        "puesto": "",
+        "fecha_compra": "",
+        "quien_realiza": "Oscar Luna",
+        "fecha_instalacion": "",
+        "modelo": "TEO180",
+        "tipo": "Agua",
+        "serie": "210032/2 2021",
+        "temp_max": "",
+        "fase": "3F",
+        "voltios": "440",
+        "amperaje de carga maxima": "",
+        "lecturas": {
+          "toma_corriente": "440",
+          "rampeo_corriente": "",
+          " Voltaje de entrada": "440",
+          "rampeo_entrada": "",
+          " Voltaje de salida": "440",
+          "rampeo_salida": "",
+          "amperaje": "",
+          "rampeo_amperaje": "",
+          "presion": "6.1",
+          "rampeo_presion": "",
+          "aceite": "",
+          "rampeo_aceite": "",
+          "temperatura": "180",
+          "rampeo_temperatura": ""
+        },
+        "material_utilizado": "Fusible F7 al 250v",
+        "comentarios": "Se encuentra corto en la segunda linea (azul) se realiza ajuste y se coloca el nuevo fusible F7",
+        "realizo": "Oscar Luna",
+        "recibio": ""
+      }
+    ]
+  }
+]

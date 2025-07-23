@@ -1,0 +1,52 @@
+[
+  {
+    "id": "mrp1_03",
+    "empresa": "mrp1",
+    "nombre": "MRP1",
+    "serie": "55427 2022",
+    "qr": "qr_mrp1_MRP1003.png",
+    "mantenimientos": [
+      {
+        "fecha": "28/09/22",
+        "trabajo": "Correctivo",
+        "empresa": "MRP1",
+        "contacto": "Eduardo Alvarez",
+        "ubicacion": "QRO",
+        "tel": "",
+        "estado": "QRO",
+        "puesto": "",
+        "fecha_compra": "",
+        "quien_realiza": "Oscar Luna",
+        "fecha_instalacion": "",
+        "modelo": "WTP18/180/X",
+        "tipo": "Agua",
+        "serie": "55427 2022",
+        "temp_max": "180°C",
+        "fase": "3F",
+        "voltios": "440",
+        "amperaje de carga maxima": "34A",
+        "lecturas": {
+          "toma_corriente": "",
+          "rampeo_corriente": "",
+          "Volatej de entrada": "",
+          "rampeo_entrada": "",
+          "Volataje de salida": "",
+          "rampeo_salida": "",
+          "amperaje": "",
+          "rampeo_amperaje": "",
+          "presion": "",
+          "rampeo_presion": "",
+          "aceite": "",
+          "rampeo_aceite": "",
+          "temperatura": "",
+          "rampeo_temperatura": ""
+        },
+        "material_utilizado": "Transductor mika, 15 bar ",
+        "comentarios": "Se requiere cambio de transductor ya que marca su maximo  rango y varia sus medicines sin someterse a presiones de agua.",
+        "realizo": "Oscar Luna",
+        "recibio": ""
+      }
+    ]
+  }
+]
+   

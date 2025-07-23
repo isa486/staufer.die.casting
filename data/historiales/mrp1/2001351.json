@@ -1,0 +1,51 @@
+[
+  {
+    "id": "mrp1_08",
+    "empresa": "mrp1",
+    "nombre": "MRP1",
+    "serie": "200135/1 T-36",
+    "qr": "qr_mrp1_MRP1008.png",
+    "mantenimientos": [
+      {
+        "fecha": "",
+        "trabajo": "Diagnostico",
+        "empresa": "MRP1",
+        "contacto": "",
+        "ubicacion": "QRO",
+        "tel": "",
+        "estado": "QRO",
+        "puesto": "",
+        "fecha_compra": "",
+        "quien_realiza": "Oscar Luna",
+        "fecha_instalacion": "",
+        "modelo": "TEO180",
+        "tipo": "Agua",
+        "serie": "200135/1 T-36",
+        "temp_max": "",
+        "fase": "",
+        "voltios": "",
+        "amperaje de carga maxima": "",
+        "lecturas": {
+          "toma_corriente": "",
+          "rampeo_corriente": "",
+          "Voltaje de entrada": "",
+          "rampeo_entrada": "",
+          "Voltaje de salida": "",
+          "rampeo_salida": "",
+          "amperaje": "",
+          "rampeo_amperaje": "",
+          "presion": "",
+          "rampeo_presion": "",
+          "aceite": "",
+          "rampeo_aceite": "",
+          "temperatura": "",
+          "rampeo_temperatura": ""
+        },
+        "material_utilizado": "",
+        "comentarios": "1 resistencia 18 kw, 1 bomba carga de agua, 1 porta fusibles, 1 transductor 30 bar",
+        "realizo": "Oscar Luna",
+        "recibio": ""
+      }
+    ]
+  }
+]

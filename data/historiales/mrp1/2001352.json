@@ -1,0 +1,51 @@
+[
+  {
+    "id": "mrp1_011",
+    "empresa": "mrp1",
+    "nombre": "MRP1",
+    "serie": "200135/2 CTO-4",
+    "qr": "qr_mrp1_MRP10011.png",
+    "mantenimientos": [
+      {
+        "fecha": "",
+        "trabajo": "Diagnostico",
+        "empresa": "MRP1",
+        "contacto": "",
+        "ubicacion": "QRO",
+        "tel": "",
+        "estado": "QRO",
+        "puesto": "",
+        "fecha_compra": "",
+        "quien_realiza": "Oscar Luna",
+        "fecha_instalacion": "",
+        "modelo": "TEO180",
+        "tipo": "Agua",
+        "serie": "200135/2",
+        "temp_max": "180°C",
+        "fase": "3F",
+        "voltios": "440",
+        "amperaje de carga maxima": "",
+        "lecturas": {
+          "toma_corriente": "",
+          "rampeo_corriente": "",
+          "Voltaje de entrada": "",
+          "rampeo_entrada": "",
+          "Voltaje de salida": "",
+          "rampeo_salida": "",
+          "amperaje": "",
+          "rampeo_amperaje": "",
+          "presion": "",
+          "rampeo_presion": "",
+          "aceite": "",
+          "rampeo_aceite": "",
+          "temperatura": "",
+          "rampeo_temperatura": ""
+        },
+        "material_utilizado": "",
+        "comentarios": "Falla en resistencia L1 y L2, falla de transductor, falla en bomba magnetica SAE, Falla en bomba de carga agua.",
+        "realizo": "Oscar Luna",
+        "recibio": ""
+      }
+    ]
+  }
+]
