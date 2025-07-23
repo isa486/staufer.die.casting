@@ -83,7 +83,7 @@ function mostrarTablaHistorial(mtto, serie) {
     </table>
     <div class="acciones-historial">
       <button onclick="window.print()">Imprimir historial</button>
-      <button onclick="window.location.href='maquinas-listado.html'">Volver al listado</button>
+      <button onclick="window.location.href='index.html'">Volver al listado</button>
     </div>
   `;
   return html;
