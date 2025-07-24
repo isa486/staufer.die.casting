@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Agregar Nuevo Historial de Mantenimiento</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    :root {
+      --amarillo: #ffd600;
+      --negro: #222;
+      --blanco: #fff;
+      --amarillo-suave: #fffde7;
+    }
+    body {
+      background: var(--amarillo-suave);
+      font-family: 'Segoe UI', Arial, sans-serif;
+      margin: 0;
+      min-height: 100vh;
+    }
+    main {
+      max-width: 600px;
+      margin: 40px auto;
+      background: var(--blanco);
+      box-shadow: 0 0 16px var(--amarillo);
+      border-radius: 14px;
+      padding: 30px 32px 24px 32px;
+    }
+    h1 {
+      color: var(--amarillo);
+      text-align: center;
+      margin-bottom: 32px;
+      font-size: 2rem;
+      letter-spacing: 1px;
+      text-shadow: 1px 1px 2px var(--negro), 0 0 10px var(--amarillo);
+    }
+    label {
+      display: block;
+      margin-top: 12px;
+      font-weight: bold;
+      color: var(--negro);
+    }
+    input, textarea {
+      width: 100%;
+      background: var(--amarillo-suave);
+      border: 1.5px solid var(--amarillo);
+      border-radius: 5px;
+      padding: 7px 10px;
+      font-size: 1rem;
+      margin-top: 4px;
+      margin-bottom: 12px;
+      color: var(--negro);
+      box-sizing: border-box;
+      transition: border-color 0.2s;
+    }
+    input:focus, textarea:focus {
+      border-color: var(--negro);
+      outline: none;
+    }
+    textarea {
+      min-height: 60px;
+      resize: vertical;
+    }
+    .lecturas-box {
+      background: var(--amarillo);
+      border-radius: 8px;
+      padding: 15px 14px 4px 14px;
+      margin-bottom: 20px;
+      margin-top: 12px;
+      box-shadow: 0 1px 8px #ffe066;
+    }
+    .lecturas-box label {
+      color: var(--negro);
+      font-size: 1rem;
+      margin-top: 8px;
+      margin-bottom: 2px;
+    }
+    .lecturas-title {
+      font-size: 1.1rem;
+      font-weight: bold;
+      color: var(--negro);
+      margin-bottom: 5px;
+      margin-top: 0;
+      letter-spacing: 1px;
+    }
+    .botones {
+      display: flex;
+      gap: 18px;
+      margin-top: 24px;
+      justify-content: center;
+    }
+    button {
+      background: var(--amarillo);
+      color: var(--negro);
+      border: none;
+      border-radius: 4px;
+      padding: 9px 28px;
+      font-size: 1.1rem;
+      font-weight: bold;
+      cursor: pointer;
+      transition: background 0.2s, color 0.2s;
+      box-shadow: 0 2px 6px var(--amarillo-suave);
+      text-shadow: 1px 1px 2px var(--blanco);
+    }
+    button:hover {
+      background: var(--negro);
+      color: var(--amarillo);
+    }
+    .json-result {
+      background: var(--negro);
+      color: var(--amarillo);
+      padding: 14px 16px;
+      border-radius: 8px;
+      margin-top: 22px;
+      font-size: 1rem;
+      word-break: break-all;
+      font-family: 'Consolas', 'Menlo', monospace;
+      box-shadow: 0 2px 8px var(--amarillo);
+      white-space: pre-wrap;
+    }
+    @media (max-width: 700px) {
+      main {
+        max-width: 96vw;
+        padding: 14px 4vw 18px 4vw;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Agregar Historial de Mantenimiento</h1>
+    <form id="historialForm" autocomplete="off">
+      <label>Fecha:</label>
+      <input type="date" id="fecha" required>
+
+      <label>Trabajo realizado:</label>
+      <input type="text" id="trabajo" required>
+
+      <label>Empresa:</label>
+      <input type="text" id="empresa">
+
+      <label>Contacto:</label>
+      <input type="text" id="contacto">
+
+      <label>Ubicación:</label>
+      <input type="text" id="ubicacion">
+
+      <label>Tel:</label>
+      <input type="text" id="tel">
+
+      <label>Estado:</label>
+      <input type="text" id="estado">
+
+      <label>Puesto:</label>
+      <input type="text" id="puesto">
+
+      <label>Fecha de compra:</label>
+      <input type="date" id="fecha_compra">
+
+      <label>Quién realiza:</label>
+      <input type="text" id="quien_realiza">
+
+      <label>Fecha instalación:</label>
+      <input type="date" id="fecha_instalacion">
+
+      <label>Modelo:</label>
+      <input type="text" id="modelo">
+
+      <label>Tipo:</label>
+      <input type="text" id="tipo">
+
+      <label>Temp. máx:</label>
+      <input type="text" id="temp_max">
+
+      <label>Fase motor:</label>
+      <input type="text" id="fase">
+
+      <label>Voltios:</label>
+      <input type="text" id="voltios">
+
+      <label>Amperaje máx:</label>
+      <input type="text" id="amperaje">
+
+      <div class="lecturas-box">
+        <div class="lecturas-title">Lecturas</div>
+        <label for="toma_corriente">Toma de corriente:</label>
+        <input type="text" id="toma_corriente">
+
+        <label for="rampeo_corriente">Rampeo corriente:</label>
+        <input type="text" id="rampeo_corriente">
+
+        <label for="voltaje_entrada">Voltaje de entrada:</label>
+        <input type="text" id="voltaje_entrada">
+
+        <label for="rampeo_entrada">Rampeo entrada:</label>
+        <input type="text" id="rampeo_entrada">
+
+        <label for="voltaje_salida">Voltaje de salida:</label>
+        <input type="text" id="voltaje_salida">
+
+        <label for="rampeo_salida">Rampeo salida:</label>
+        <input type="text" id="rampeo_salida">
+
+        <label for="amperaje_lect">Amperaje:</label>
+        <input type="text" id="amperaje_lect">
+
+        <label for="rampeo_amperaje">Rampeo amperaje:</label>
+        <input type="text" id="rampeo_amperaje">
+
+        <label for="presion">Presión:</label>
+        <input type="text" id="presion">
+
+        <label for="rampeo_presion">Rampeo presión:</label>
+        <input type="text" id="rampeo_presion">
+
+        <label for="aceite">Aceite:</label>
+        <input type="text" id="aceite">
+
+        <label for="rampeo_aceite">Rampeo aceite:</label>
+        <input type="text" id="rampeo_aceite">
+
+        <label for="temperatura">Temperatura:</label>
+        <input type="text" id="temperatura">
+
+        <label for="rampeo_temperatura">Rampeo temperatura:</label>
+        <input type="text" id="rampeo_temperatura">
+      </div>
+
+      <label>Material utilizado:</label>
+      <textarea id="material_utilizado"></textarea>
+
+      <label>Comentarios:</label>
+      <textarea id="comentarios"></textarea>
+
+      <label>Realizó:</label>
+      <input type="text" id="realizo">
+
+      <label>Recibió:</label>
+      <input type="text" id="recibio">
+
+      <div class="botones">
+        <button type="submit">Generar JSON</button>
+        <button type="button" onclick="window.location.href='maquinas-listado.html'">Volver al listado</button>
+      </div>
+    </form>
+    <div id="resultado" class="json-result" style="display:none;"></div>
+  </main>
+  <script>
+    document.getElementById('historialForm').onsubmit = function(e) {
+      e.preventDefault();
+      // Lecturas como objeto con los campos individuales
+      const lecturas = {
+        "toma_corriente": document.getElementById('toma_corriente').value,
+        "rampeo_corriente": document.getElementById('rampeo_corriente').value,
+        "Voltaje de entrada": document.getElementById('voltaje_entrada').value,
+        "rampeo_entrada": document.getElementById('rampeo_entrada').value,
+        "Voltaje de salida": document.getElementById('voltaje_salida').value,
+        "rampeo_salida": document.getElementById('rampeo_salida').value,
+        "amperaje": document.getElementById('amperaje_lect').value,
+        "rampeo_amperaje": document.getElementById('rampeo_amperaje').value,
+        "presion": document.getElementById('presion').value,
+        "rampeo_presion": document.getElementById('rampeo_presion').value,
+        "aceite": document.getElementById('aceite').value,
+        "rampeo_aceite": document.getElementById('rampeo_aceite').value,
+        "temperatura": document.getElementById('temperatura').value,
+        "rampeo_temperatura": document.getElementById('rampeo_temperatura').value
+      };
+      // Elimina campos vacíos del objeto lecturas
+      Object.keys(lecturas).forEach(k => {
+        if (lecturas[k] === "") delete lecturas[k];
+      });
+      // Crear objeto historial
+      const historial = {
+        fecha: document.getElementById('fecha').value,
+        trabajo: document.getElementById('trabajo').value,
+        empresa: document.getElementById('empresa').value,
+        contacto: document.getElementById('contacto').value,
+        ubicacion: document.getElementById('ubicacion').value,
+        tel: document.getElementById('tel').value,
+        estado: document.getElementById('estado').value,
+        puesto: document.getElementById('puesto').value,
+        fecha_compra: document.getElementById('fecha_compra').value,
+        quien_realiza: document.getElementById('quien_realiza').value,
+        fecha_instalacion: document.getElementById('fecha_instalacion').value,
+        modelo: document.getElementById('modelo').value,
+        tipo: document.getElementById('tipo').value,
+        temp_max: document.getElementById('temp_max').value,
+        fase: document.getElementById('fase').value,
+        voltios: document.getElementById('voltios').value,
+        amperaje: document.getElementById('amperaje').value,
+        lecturas: Object.keys(lecturas).length > 0 ? lecturas : undefined,
+        material_utilizado: document.getElementById('material_utilizado').value,
+        comentarios: document.getElementById('comentarios').value,
+        realizo: document.getElementById('realizo').value,
+        recibio: document.getElementById('recibio').value
+      };
+      // Limpiar campos vacíos
+      Object.keys(historial).forEach(k => {
+        if (historial[k] === "" || historial[k] === undefined) delete historial[k];
+      });
+      // Mostrar resultado
+      document.getElementById('resultado').style.display = 'block';
+      document.getElementById('resultado').textContent = JSON.stringify(historial, null, 2);
+      window.scrollTo({top: document.body.scrollHeight, behavior: "smooth"});
+    };
+  </script>
+</body>
+</html>
