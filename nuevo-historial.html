@@ -129,58 +129,58 @@
   <main>
     <h1>Nuevo Historial de Mantenimiento</h1>
     <form id="historialForm" autocomplete="off">
-      <label>Fecha:</label>
+      <label for="fecha">Fecha:</label>
       <input type="date" id="fecha" required>
 
-      <label>Trabajo realizado:</label>
+      <label for="trabajo">Trabajo realizado:</label>
       <input type="text" id="trabajo" required>
 
-      <label>Empresa:</label>
+      <label for="empresa">Empresa:</label>
       <input type="text" id="empresa">
 
-      <label>Contacto:</label>
+      <label for="contacto">Contacto:</label>
       <input type="text" id="contacto">
 
-      <label>Ubicación:</label>
+      <label for="ubicacion">Ubicación:</label>
       <input type="text" id="ubicacion">
 
-      <label>Tel:</label>
+      <label for="tel">Tel:</label>
       <input type="text" id="tel">
 
-      <label>Estado:</label>
+      <label for="estado">Estado:</label>
       <input type="text" id="estado">
 
-      <label>Puesto:</label>
+      <label for="puesto">Puesto:</label>
       <input type="text" id="puesto">
 
-      <label>Fecha de compra:</label>
+      <label for="fecha_compra">Fecha de compra:</label>
       <input type="date" id="fecha_compra">
 
-      <label>Quién realiza:</label>
+      <label for="quien_realiza">Quién realiza:</label>
       <input type="text" id="quien_realiza">
 
-      <label>Fecha instalación:</label>
+      <label for="fecha_instalacion">Fecha instalación:</label>
       <input type="date" id="fecha_instalacion">
 
-      <label>Modelo:</label>
+      <label for="modelo">Modelo:</label>
       <input type="text" id="modelo">
 
-      <label>Tipo:</label>
+      <label for="tipo">Tipo:</label>
       <input type="text" id="tipo">
 
-      <label>serie:</label>
-      <input type="text" id="modelo">
+      <label for="serie">Serie:</label>
+      <input type="text" id="serie">
 
-      <label>Temp. máx:</label>
+      <label for="temp_max">Temp. máx:</label>
       <input type="text" id="temp_max">
 
-      <label>Fase motor:</label>
+      <label for="fase">Fase motor:</label>
       <input type="text" id="fase">
 
-      <label>Voltios:</label>
+      <label for="voltios">Voltios:</label>
       <input type="text" id="voltios">
 
-      <label>Amperaje máx:</label>
+      <label for="amperaje">Amperaje máx:</label>
       <input type="text" id="amperaje">
 
       <div class="lecturas-box">
@@ -228,16 +228,16 @@
         <input type="text" id="rampeo_temperatura">
       </div>
 
-      <label>Material utilizado:</label>
+      <label for="material_utilizado">Material utilizado:</label>
       <textarea id="material_utilizado"></textarea>
 
-      <label>Comentarios:</label>
+      <label for="comentarios">Comentarios:</label>
       <textarea id="comentarios"></textarea>
 
-      <label>Realizó:</label>
+      <label for="realizo">Realizó:</label>
       <input type="text" id="realizo">
 
-      <label>Recibió:</label>
+      <label for="recibio">Recibió:</label>
       <input type="text" id="recibio">
 
       <div class="botones">
@@ -254,9 +254,9 @@
       const lecturas = {
         "toma_corriente": document.getElementById('toma_corriente').value,
         "rampeo_corriente": document.getElementById('rampeo_corriente').value,
-        "Voltaje de entrada": document.getElementById('voltaje_entrada').value,
+        "voltaje_entrada": document.getElementById('voltaje_entrada').value,
         "rampeo_entrada": document.getElementById('rampeo_entrada').value,
-        "Voltaje de salida": document.getElementById('voltaje_salida').value,
+        "voltaje_salida": document.getElementById('voltaje_salida').value,
         "rampeo_salida": document.getElementById('rampeo_salida').value,
         "amperaje": document.getElementById('amperaje_lect').value,
         "rampeo_amperaje": document.getElementById('rampeo_amperaje').value,
